@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet } from 'react-natvie';
+import { View, Text, StyleSheet } from 'react-native';
 
 import { Icon } from 'native-base';
 import { createTabNavigator } from 'react-navigation';
@@ -49,11 +49,7 @@ const AppTabNavigator = createTabNavigator({
     tabBarPosition: "bottom",
     tabBarOptions: {
         style: {
-            ...Platform.select({
-                android:{
-                    backgroundColor:'white'
-                }
-            })
+           
         },
         activeTintColor: '#000',
         inactiveTintColor: '#d1cece',

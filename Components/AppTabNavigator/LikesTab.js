@@ -6,23 +6,23 @@ import {
     } from 'react-native';
 import { Icon } from 'native-base';
  
-class HomeTab extends Component{
+class LikesTab extends Component{
  
     static navigationOptions = {
         tabBarIcon: ({ tintColor }) => (
-            < Icon name='ios-heart' style={{color:tintColor}} />
+            <Icon name='ios-heart' style={{color:tintColor}} />
         )
     }
  
     render(){
         return (
             <View style={style.container}>
-                <Text>HomeTab</Text>
+                <Text>LikesTab</Text>
             </View>
         );
     }
 }
-export default HomeTab;
+export default LikesTab;
  
 const style = StyleSheet.create({
     container: {

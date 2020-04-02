@@ -6,23 +6,23 @@ import {
     } from 'react-native';
 import { Icon } from 'native-base';
  
-class HomeTab extends Component{
+class ProfileTab extends Component{
  
     static navigationOptions = {
         tabBarIcon: ({ tintColor }) => (
-            < Icon name='person' style={{color:tintColor}} />
+            <Icon name='person' style={{color:tintColor}} />
         )
     }
  
     render(){
         return (
             <View style={style.container}>
-                <Text>HomeTab</Text>
+                <Text>ProfileTab</Text>
             </View>
         );
     }
 }
-export default HomeTab;
+export default ProfileTab;
  
 const style = StyleSheet.create({
     container: {

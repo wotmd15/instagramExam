@@ -6,23 +6,23 @@ import {
     } from 'react-native';
 import { Icon } from 'native-base';
  
-class HomeTab extends Component{
+class AddMediaTab extends Component{
  
     static navigationOptions = {
         tabBarIcon: ({ tintColor }) => (
-            < Icon name='ios-add-circle' style={{color:tintColor}} />
+            <Icon name='ios-add-circle' style={{color:tintColor}} />
         )
     }
  
     render(){
         return (
             <View style={style.container}>
-                <Text>HomeTab</Text>
+                <Text>AddMediaTab</Text>
             </View>
         );
     }
 }
-export default HomeTab;
+export default AddMediaTab;
  
 const style = StyleSheet.create({
     container: {

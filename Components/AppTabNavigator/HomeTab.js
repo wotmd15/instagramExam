@@ -10,7 +10,7 @@ class HomeTab extends Component{
  
     static navigationOptions = {
         tabBarIcon: ({ tintColor }) => (
-            < Icon name='ios-home' style={{color:tintColor}} />
+            <Icon name='ios-home' style={{color:tintColor}} />
         )
     }
  

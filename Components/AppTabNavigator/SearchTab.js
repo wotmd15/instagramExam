@@ -6,23 +6,23 @@ import {
     } from 'react-native';
 import { Icon } from 'native-base';
  
-class HomeTab extends Component{
+class SearchTab extends Component{
  
     static navigationOptions = {
         tabBarIcon: ({ tintColor }) => (
-            < Icon name='ios-search' style={{color:tintColor}} />
+            <Icon name='ios-search' style={{color:tintColor}} />
         )
     }
  
     render(){
         return (
             <View style={style.container}>
-                <Text>HomeTab</Text>
+                <Text>SearchTab</Text>
             </View>
         );
     }
 }
-export default HomeTab;
+export default SearchTab;
  
 const style = StyleSheet.create({
     container: {
